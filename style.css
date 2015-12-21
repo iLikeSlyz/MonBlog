@@ -1,0 +1,24 @@
+.navbar button {
+  margin: 10px 50px;
+}
+@font-face {
+  font-family: 'zenzai_itacharegular';
+  src: url('zenzai_itacha-webfont.eot');
+  src: url('zenzai_itacha-webfont.eot?#iefix') format('embedded-opentype'), url('zenzai_itacha-webfont.woff2') format('woff2'), url('zenzai_itacha-webfont.woff') format('woff'), url('zenzai_itacha-webfont.ttf') format('truetype'), url('zenzai_itacha-webfont.svg#zenzai_itacharegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-family: 'zenzai_itacharegular';
+  text-align: center;
+}
+@font-face {
+  font-family: 'squared_displayregular';
+  src: url('squared_display-webfont.eot');
+  src: url('squared_display-webfont.eot?#iefix') format('embedded-opentype'), url('squared_display-webfont.woff2') format('woff2'), url('squared_display-webfont.woff') format('woff'), url('squared_display-webfont.ttf') format('truetype'), url('squared_display-webfont.svg#squared_displayregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+button {
+  font-family: 'squared_displayregular';
+}
