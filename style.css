@@ -30,6 +30,9 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
+  heigth: auto;
+  display: block;
   -moz-box-shadow: 15px 5px 50px 0px #656565;
   -webkit-box-shadow: 15px 5px 50px 0px #656565;
   -o-box-shadow: 15px 5px 50px 0px #656565;
