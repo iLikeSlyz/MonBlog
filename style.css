@@ -24,8 +24,11 @@ a.bou {
 }
 .container {
   background-color: #F0F0F0;
-
-
+}
+footer p {
+  background-color: gray;
+  text-align: center;
+  margin: 0 0 0;
 }
 img {
   display: block;
