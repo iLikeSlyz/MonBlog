@@ -1,3 +1,6 @@
+body {
+  background-image: url(/home/mchindra/dev/MonBlog/japan.jpg);
+}
 @font-face {
   font-family: 'zenzai_itacharegular';
   src: url('zenzai_itacha-webfont.eot');
@@ -26,6 +29,7 @@ a.bou {
   background-color: #F0F0F0;
 }
 footer p {
+  font-family: Comic Sans MS;
   background-color: gray;
   text-align: center;
   margin: 0 0 0;
