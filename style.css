@@ -1,91 +1,90 @@
-  body {
-  background-image: url(/MonBlog/japan.jpg);
-}
-@font-face {
-  font-family: 'zenzai_itacharegular';
-  src: url('zenzai_itacha-webfont.eot');
-  src: url('zenzai_itacha-webfont.eot?#iefix') format('embedded-opentype'), url('zenzai_itacha-webfont.woff2') format('woff2'), url('zenzai_itacha-webfont.woff') format('woff'), url('zenzai_itacha-webfont.ttf') format('truetype'), url('zenzai_itacha-webfont.svg#zenzai_itacharegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-h1 {
-  font-family: 'zenzai_itacharegular';
-  text-align: center;
-}
-@font-face {
-  font-family: 'squared_displayregular';
-  src: url('squared_display-webfont.eot');
-  src: url('squared_display-webfont.eot?#iefix') format('embedded-opentype'), url('squared_display-webfont.woff2') format('woff2'), url('squared_display-webfont.woff') format('woff'), url('squared_display-webfont.ttf') format('truetype'), url('squared_display-webfont.svg#squared_displayregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-a.bou {
-  font-family: 'squaMored_displayregular';
-  margin-left: 115px;
-  color: white;
-  font-weight: bold;
-}
-.container {
-  background-color: #F0F0F0;
-}
-footer p {
-  font-family: Comic Sans MS;
-  background-color: gray;
-  text-align: center;
-  margin: 0 0 0;
-}
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  heigth: auto;
-  display: block;
-  -moz-box-shadow: 15px 5px 50px 0px #656565;
-  -webkit-box-shadow: 15px 5px 50px 0px #656565;
-  -o-box-shadow: 15px 5px 50px 0px #656565;
-  box-shadow: 15px 5px 50px 0px #656565;
-  filter: progid: DXImageTransform.Microsoft.Shadow(color=#656565, Direction=108, Strength=50);
-}
-@font-face {
-  font-family: 'music_warriorregular';
-  src: url('music_warrior-webfont.eot');
-  src: url('music_warrior-webfont.eot?#iefix') format('embedded-opentype'), url('music_warrior-webfont.woff2') format('woff2'), url('music_warrior-webfont.woff') format('woff'), url('music_warrior-webfont.ttf') format('truetype'), url('music_warrior-webfont.svg#music_warriorregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-p {
-  font-family: 'music_warriorregular';
-  text-align: center;
-  font-size: black;
-}
-@media screen and (max-width: 767px) {
-  iframe {
-    display: none;
-    visibility: hidden;
+    body {
+    background-image: url(/MonBlog/japan.jpg);
   }
-}
-.fixed {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 350px;
-  margin-top: 50px;
-  margin-right: 10px;
-  border-radius: 5px;
-}
-div .twitter {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-right:10px;
-  margin-top: 145px;
-  height: 600px;
-  width: 350px;
-  position: fixed;
-}
-@media screen and (max-width: 767px) {
+  @font-face {
+    font-family: 'zenzai_itacharegular';
+    src: url('zenzai_itacha-webfont.eot');
+    src: url('zenzai_itacha-webfont.eot?#iefix') format('embedded-opentype'), url('zenzai_itacha-webfont.woff2') format('woff2'), url('zenzai_itacha-webfont.woff') format('woff'), url('zenzai_itacha-webfont.ttf') format('truetype'), url('zenzai_itacha-webfont.svg#zenzai_itacharegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  h1 {
+    font-family: 'zenzai_itacharegular';
+    text-align: center;
+  }
+  @font-face {
+    font-family: 'squared_displayregular';
+    src: url('squared_display-webfont.eot');
+    src: url('squared_display-webfont.eot?#iefix') format('embedded-opentype'), url('squared_display-webfont.woff2') format('woff2'), url('squared_display-webfont.woff') format('woff'), url('squared_display-webfont.ttf') format('truetype'), url('squared_display-webfont.svg#squared_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  a.bou {
+    font-family: 'squaMored_displayregular';
+    margin-left: 115px;
+    color: white;
+    font-weight: bold;
+  }
+  .container {
+    background-color: #F0F0F0;
+  }
+  footer p {
+    font-family: Comic Sans MS;
+    background-color: gray;
+    text-align: center;
+    margin: 0 0 0;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    heigth: auto;
+    display: block;
+    -moz-box-shadow: 15px 5px 50px 0px #656565;
+    -webkit-box-shadow: 15px 5px 50px 0px #656565;
+    -o-box-shadow: 15px 5px 50px 0px #656565;
+    box-shadow: 15px 5px 50px 0px #656565;
+    filter: progid: DXImageTransform.Microsoft.Shadow(color=#656565, Direction=108, Strength=50);
+  }
+  @font-face {
+    font-family: 'music_warriorregular';
+    src: url('music_warrior-webfont.eot');
+    src: url('music_warrior-webfont.eot?#iefix') format('embedded-opentype'), url('music_warrior-webfont.woff2') format('woff2'), url('music_warrior-webfont.woff') format('woff'), url('music_warrior-webfont.ttf') format('truetype'), url('music_warrior-webfont.svg#music_warriorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  p {
+    font-family: 'music_warriorregular';
+    text-align: center;
+    font-size: black;
+  }
+  @media screen and (max-width: 767px) {
+    iframe {
+      display: none;
+      visibility: hidden;
+    }
+  }
+  .fixed {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+    margin-top: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
   div .twitter {
-    display: none;
-    visibility: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 145px;
+    height: 600px;
+    width: 350px;
   }
+  @media screen and (max-width: 767px) {
+    div .twitter {
+      display: none;
+      visibility: hidden;
+    }
