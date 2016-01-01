@@ -20,7 +20,7 @@ h1 {
   font-style: normal;
 }
 a.bou {
-  font-family: 'squared_displayregular';
+  font-family: 'squaMored_displayregular';
   margin-left: 115px;
   color: white;
   font-weight: bold;
@@ -68,10 +68,10 @@ p {
 .fixed {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   width: 350px;
   margin-top: 50px;
-  margin-left: 10px;
+  margin-right: 10px;
   border-radius: 5px;
 }
 div .twitter {
@@ -79,7 +79,7 @@ div .twitter {
   top: 0;
   right: 0;
   margin-right:10px;
-  margin-top: 53px;
+  margin-top: 145px;
   height: 600px;
   width: 350px;
   position: fixed;
