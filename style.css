@@ -59,3 +59,18 @@ p {
   text-align: center;
   font-size: black;
 }
+@media screen and (max-width: 767px) {
+  iframe {
+    display: none;
+    visibility: hidden;
+  }
+}
+.fixed {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 350px;
+  margin-top: 50px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
