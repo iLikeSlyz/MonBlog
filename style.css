@@ -1,4 +1,4 @@
-body {
+  body {
   background-image: url(/MonBlog/japan.jpg);
 }
 @font-face {
@@ -66,7 +66,7 @@ p {
   }
 }
 .fixed {
-  position:absolute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 350px;
@@ -74,3 +74,18 @@ p {
   margin-left: 10px;
   border-radius: 5px;
 }
+div .twitter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right:10px;
+  margin-top: 53px;
+  height: 600px;
+  width: 350px;
+  position: fixed;
+}
+@media screen and (max-width: 767px) {
+  div .twitter {
+    display: none;
+    visibility: hidden;
+  }
