@@ -59,14 +59,14 @@
       text-align: center;
       font-size: black;
     }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 1025px) {
       iframe {
         display: none;
         visibility: hidden;
       }
     }
     .fixed {
-      position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
       width: 350px;
@@ -75,7 +75,7 @@
       border-radius: 5px;
     }
     div .twitter {
-      position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
       margin-right: 10px;
@@ -83,7 +83,7 @@
       width: 350px;
 
     }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 1025px) {
       div .twitter {
         display: none;
         visibility: hidden;
