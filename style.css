@@ -88,3 +88,12 @@
         display: none;
         visibility: hidden;
       }
+.fixeded{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 350px;
+  margin-top: 490px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
